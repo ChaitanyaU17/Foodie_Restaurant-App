@@ -26,6 +26,7 @@ return (
     <div className="flex h-16 justify-between shadow-lg shadow- shadow-orange-200  px-8">
         <div className="flex items-center">
             <img className="h-14" src={logo} alt="Logo" />
+            //logo updated
             <img className=" mb-4" style={{height: '76px'}} src={foodie} alt="Foodie" />
         </div>
         <div className="flex items-center">
