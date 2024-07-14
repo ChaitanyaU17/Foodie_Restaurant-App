@@ -4,7 +4,7 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 import userContext from "../utils/userContext";
 import { useSelector } from "react-redux";
 import logo from '../utils/logo_2.png';
-import foodie from '../utils/Foodie.png';
+import foodie from '../utils/Foodie3.png';
 import Cart from '../utils/cart.png';
 
 const Header = () => {
@@ -23,10 +23,10 @@ const cartItems = useSelector((store) => store.cart.items);
 //console.log(cartItems);
 
 return (
-    <div className="flex h-16 justify-between shadow-lg px-8">
+    <div className="flex h-16 justify-between shadow-lg shadow- shadow-orange-200  px-8">
         <div className="flex items-center">
             <img className="h-14" src={logo} alt="Logo" />
-            <img className="h-20 mb-4" src={foodie} alt="Foodie" />
+            <img className=" mb-4" style={{height: '76px'}} src={foodie} alt="Foodie" />
         </div>
         <div className="flex items-center">
             <ul className="hidden md:flex p-0 m-0"> {/* Hidden on small screens */}
