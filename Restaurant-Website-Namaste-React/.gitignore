@@ -1,13 +1,9 @@
-
-
-node_modules/
-.cache/
-.parcel-cache/
-coverage/
-dist/
-*.log
-.DS_Store
-
+/node_modules
+/dist
+.parcel-cache
+.cache
+/mocks
+/.vscode
 
 # testing
 /coverage
