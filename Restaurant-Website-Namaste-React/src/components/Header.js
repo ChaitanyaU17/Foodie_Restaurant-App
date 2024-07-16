@@ -23,7 +23,7 @@ const cartItems = useSelector((store) => store.cart.items);
 //console.log(cartItems);
 
 return (
-    <div className="flex h-16 justify-between shadow-lg shadow-orange-200 px-8">
+    <div className="flex sticky top-0 z-50 bg-white shadow-lg shadow-orange-200 h-16 justify-between  px-8">
         <div className="flex items-center">
             <img className="h-14" src={logo} alt="Logo" />
             <img className="h-20 mb-4" src={foodie} alt="Foodie" />

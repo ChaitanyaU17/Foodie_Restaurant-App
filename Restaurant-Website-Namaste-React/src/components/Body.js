@@ -52,7 +52,7 @@ const Body = () => {
       </div>
     ) : (
       <div className="body">
-        <div className="filter flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 m-4">
+        <div className="filter flex flex-wrap items-center justify-center space-y-4 md:space-y-2 md:space-x-4 m-4">
           <button
             className="top-rated-btn px-2 py-1 bg-yellow-300 rounded-lg md:w-auto"
             onClick={() => {
@@ -62,7 +62,7 @@ const Body = () => {
           >
             Top Rated Restaurants
           </button>
-          <div className="search flex flex-col md:flex-row items-center">
+          <div className="search flex flex-col ml-5 md:ml-0 md:flex-row items-center">
             <input
               type="text"
               data-testid="searchInput"
