@@ -1,6 +1,7 @@
-# Swiggy Clone with React and Parcel Bundler
 
-Welcome to the Swiggy Clone GitHub repository! This project is a front-end clone of the popular food delivery application Swiggy. It is built using React for the user interface and Parcel Bundler for a simple and efficient bundling process. The project incorporates key features such as API calls, Redux for state management, and Tailwind CSS for styling.
+# Foodie Restaurant Website
+
+Welcome to the Foodie Restaurant Website GitHub repository! This project is a front-end clone of the popular food delivery application Swiggy. It is built using React for the user interface and Parcel Bundler for a simple and efficient bundling process. The project incorporates key features such as API calls, Redux for state management, and Tailwind CSS for styling.
 
 ## Table of Contents
 - [Features](#features)
@@ -8,6 +9,9 @@ Welcome to the Swiggy Clone GitHub repository! This project is a front-end clone
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [Live Demo](#live-demo)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -54,7 +58,7 @@ Before you begin, ensure you have the following installed on your machine:
    npm start
    ```
 
-5. Open your browser and visit `http://localhost:3000` to view the Swiggy Clone application.
+5. Open your browser and visit `http://localhost:3000` to view the Foodie Restaurant Website application.
 
 ## Project Structure
 The project structure follows a modular approach for better organization:
@@ -73,8 +77,26 @@ The project structure follows a modular approach for better organization:
 
 For a complete list of dependencies and versions, refer to the `package.json` file.
 
+## Screenshots
+Here are some screenshots of the Foodie Restaurant Website:
+
+![Homepage](./Restaurant-Website-Namaste-React//screenshots/Home.png)
+![About US](./Restaurant-Website-Namaste-React/screenshots/about.png)
+![Contact US](./Restaurant-Website-Namaste-React/screenshots/contact.png)
+![Recommendations](./Restaurant-Website-Namaste-React/screenshots/recommendation.png)
+![Cart](./Restaurant-Website-Namaste-React/screenshots/add%20items%20to%20cart.png)
+![Shimmer](./Restaurant-Website-Namaste-React/screenshots/card%20shimmer%20ui.png)
+![Shimmer details](./Restaurant-Website-Namaste-React/screenshots/shimmer%20ui%20product%20detail.png)
+
+
+## Live Demo
+
+[Live Demo](#) _(https://www.linkedin.com/posts/chaitanya-umbarkar-323470239_restaurantwebsite-webdevelopment-frontenddevelopment-activity-7218501614729379841-YbEr?utm_source=share&utm_medium=member_desktop)_
+
 ## Contributing
 We welcome contributions from the community. If you find a bug or have an enhancement in mind, please open an issue or submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
